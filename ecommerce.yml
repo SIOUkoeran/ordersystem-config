@@ -9,4 +9,4 @@ springbootwebfluxjjwt:
       keylength: 256
 
 gateway:
-  ip: 192.168.0.8
+  ip: 192.168.35.193
