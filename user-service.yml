@@ -1,10 +1,10 @@
 springbootwebfluxjjwt:
   jjwt:
-    secret: ThisIsSecretForJWTHS512SignatureAlgorithmThatMUSTHave64ByteLength
+    secret: '{cipher}AQCLKYf9drLrzq9n9JEqF4A2YMoUmrNVvlAFXrRwwdFW97AyQfPSZBJV3bhGxfoUTlMkZ8QGOSCiZz3DGfap28Tss666g2qoSXaYPj2cQPrU72TYIOqrEP8Ca7lBl96vGZ4feNYE64SYP0DAl7V0PZmRtS5Aefa5KEVpc0013ZU3K6v8S6BuwDvMeLPTBgegm1OtfrIUsR+kHif2dikziLHo1j57AbJ32Xs4iz6+eDOJDzi9IgKGU5UHgaL08fQM/T07d8pBIWpxVQTUQw+mI60Wiw4DvZuDFLP77It3N3cOZ3H3DQ1llcThHMA20jVEqyn743lFgIrH3mvsPY4fSxdKgUO61hq7k10bY0EPHcDofzBB1nNKoCFGMM3q+fIAull8G+H4XkzvaBxH+4w0sTMhzBOVbbQiuSQbDgmDV5Y8T9pEB/hjOLFqrTGLASogJ0lQAwcJSmZ4YwOy4zfLuKit'
     expiration: 28800
   password:
     encoder:
-      secret: mysecret
+      secret: '{cipher}AQBcgenQBc+9U0nyy68xwbhPJ8NurKZOCU/LelSVjLFKOrE+4akTTseGHSkG7nqgmmuff7x9fiG/8Qi4BFeu0lsrypu/hAf5Wc6J6IkmXTs9V4404f2X7yfCWlZT+bf1lsvHgIG2BBowe7nMjcKGXrP8TpfM53T/UBzXGrYPKbPxJnDl7nLMOlb5EElr0zPl0cLn47LfRGpUjCkFs9a88TeU2/0j8TscXxnX4tpSsltuQCo9zTQlRPV9oE14tNV8vYsVp8JLoVlRhzZl8kykCQnuzxUO9oLfE2HN//1XiqOtWmX2Zv7n9w2YbAbKSFNT7FT28qmV6F7uqcQ3+Dp/YfcGNyimv8cEu1vl6F3vLU9um0rHGLmi6Yki06DV3t3orK8='
       iteration: 33
       keylength: 256
 spring:
