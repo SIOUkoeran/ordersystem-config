@@ -1,0 +1,12 @@
+springbootwebfluxjjwt:
+  jjwt:
+    secret: ThisIsSecretForJWTHS512SignatureAlgorithmThatMUSTHave64ByteLength
+    expiration: 28800
+  password:
+    encoder:
+      secret: mysecret
+      iteration: 33
+      keylength: 256
+
+gateway:
+  ip: 192.168.35.193
