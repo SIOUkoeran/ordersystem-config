@@ -10,7 +10,7 @@ springbootwebfluxjjwt:
 spring:
   rabbitmq:
     host: 127.0.0.1
-    username: guest
+    username: user
     password: '{cipher}eebf968800a545119b8a02bfd8f6840280136886bdec98890346863fb6b20a84'
     #password:
 gateway:
