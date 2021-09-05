@@ -11,7 +11,7 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     username: user
-    password: '{cipher}eebf968800a545119b8a02bfd8f6840280136886bdec98890346863fb6b20a84'
+    password: '{cipher}AQBfg2ZHuLcDQNMJ4/cG/3jKF1R4ecKyBgYjCcCbzpfHGiRgUimmr6oC2KyPKPrT0VoTZ2gsjF7Mm8jXOvyM3hOgCcEIzT2akQAg0iget+AHUD1KN9xOFk7sM7fmb+N9x4GWHdLHcJqYelCuODJrMHMne3gVw/J4zefUIrkqOMTsH5ddMo9bGsBIZs4E99oswytzEP+gH/yAdGZAmQ3+T3SSmL7YB1WBYS55AYkj1HIoqZJsKlbXF1GECQQB9MyEx/wXFx3CfOuywA7rdALyqK7dcNQwFM4WP2ojTO/lVm63cVJ1uRRtOJow+H/tfwg/a6Rt9C1XaZmpGpAIjdOjSC/WiTXdbS7GoecRjixo/CpQ4vE/VhunZZafkQBrgs9UmJ8='
     #password:
 gateway:
   ip: 192.168.35.193
