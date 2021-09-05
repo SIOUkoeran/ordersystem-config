@@ -7,6 +7,11 @@ springbootwebfluxjjwt:
       secret: mysecret
       iteration: 33
       keylength: 256
-
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password:
 gateway:
   ip: 192.168.35.193
