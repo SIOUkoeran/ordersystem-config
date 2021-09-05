@@ -16,3 +16,9 @@ spring:
     #password:
 gateway:
   ip: 192.168.35.193
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, busrefresh
